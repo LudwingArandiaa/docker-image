@@ -1,3 +1,25 @@
-# Python flask project
+# Simple Flask Docker Example
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+A basic Flask web application containerized with Docker for learning purposes. This project demonstrates how to:
+- Dockerize a Flask application
+- Create a `Dockerfile`
+- Configure `docker-compose.yml`
+- Use `.dockerignore`
+
+## Prerequisites
+
+- Docker installed ([Installation guide](https://docs.docker.com/get-docker/))
+- Docker Compose (usually comes with Docker Desktop)
+
+## Getting Started
+
+### 1. Clone the repository
+
+```sh
+git clone git@github.com:LudwingArandiaa/docker-image.git
+cd docker-image
+```
+### 2. Build and run with Docker Compose
+```sh
+docker-compose up --build
+```
