@@ -16,7 +16,7 @@ A basic Flask web application containerized with Docker for learning purposes. T
 ### 1. Clone the repository
 
 ```sh
-git clone git@github.com:LudwingArandiaa/docker-image.git
+git clone git@github.com:LudwingArandiaa/python-flask.git
 cd docker-image
 ```
 ### 2. Build and run with Docker Compose
